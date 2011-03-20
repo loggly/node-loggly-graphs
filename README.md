@@ -36,6 +36,12 @@ Edit the *chart.js* file and put in your Loggly subdomain, username and password
   };
 </pre>
 
+On Loggly, [create and copy a HTTP input key](http://wiki.loggly.com/send_events) and replace the one I have in the code (unless you want to send logs to our account):
+
+<pre>
+var lkey = 'a3e839e9-4827-49aa-9d28-e18e5ba5a818';
+</pre>
+
 You can also edit the terms list in *static/index.html* to search facets for other terms:
 
 <pre>
