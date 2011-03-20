@@ -56,4 +56,5 @@ Navigate to the page and check the APIs:
   http://machine.yourdomain.com/api?query=404
 </pre>
 
-
+### Caveats and TODO
+The facet searches only look for the occurrence of a given string, such as 'safari', and then total all the instances of that over all requests.  Ideally you'd want to isolate and extract a sampling of user-agents over a shorter timeframe, dedup all the IP addresses and drop all the activty by bots.
