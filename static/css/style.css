@@ -1,0 +1,2 @@
+body { font-family: Tahoma, Arial, Verdana; font-size: 12px; color: black; }
+div#pie { border: 1px dotted #ccc; width: 500px; height: 310px; background: url(images/spinner.gif) no-repeat center center; }

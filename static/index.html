@@ -1,0 +1,27 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Using Loggly with Node.js</title> 
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script src="js/jquery-1.5.1.js" type="text/javascript"></script>        
+    <script src="js/main.js" type="text/javascript"></script>        
+      
+    <script type="text/javascript">
+      $(document).ready(function(){
+        // terms for browser counts
+        var terms = ['safari', 'firefox', 'chrome', 'msie NOT 6.0', 'opera']
+        gotime(terms);
+      });
+    </script>
+
+  </head>
+
+  <body>
+    <h1>User Agents Last Week</h1>
+	<div id="pie"></div>
+  </body>
+
+</html>
+
+
