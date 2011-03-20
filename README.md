@@ -1,12 +1,12 @@
 # node-loggly-graph
 
-Example of using [node-loggly][http://github.com/nodejitsu/node-loggly] with node.js and [Google Charts][http://code.google.com/apis/chart/].
+Example of using [node-loggly](http://github.com/nodejitsu/node-loggly) with node.js and [Google Charts](http://code.google.com/apis/chart/).
 
 ## Installation
 Node.js, node-loggly, and paperboy are required to run this demo.
 
 ### Installing 
-You'll need the latest [node.js][http://nodejs.org], npm (node package manager), winston (node-loggly), and paperboy (static server) to run the demo.  Leaving you to install node.js, here are the commands for installing the rest:
+You'll need the latest [node.js](http://nodejs.org), npm (node package manager), winston (node-loggly), and paperboy (static server) to run the demo.  Leaving you to install node.js, here are the commands for installing the rest:
 
 <pre>
   curl http://npmjs.org/install.sh | sh
