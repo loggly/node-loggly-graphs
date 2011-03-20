@@ -26,7 +26,7 @@ Now grab the node-loggly-graph example project:
 Edit the *chart.js* file and put in your Loggly subdomain, username and password:
 
 <pre>
-// connect up to loggly
+  // connect up to loggly
   var config = {
     subdomain: "geekceo",
     auth: {
@@ -39,7 +39,7 @@ Edit the *chart.js* file and put in your Loggly subdomain, username and password
 You can also edit the terms list in *static/index.html* to search facets for other terms:
 
 <pre>
-  var terms = ['HTTP AND 200', 'HTTP AND 404', 'HTTP AND 302', 'HTTP AND 50*']
+  var terms = ['HTTP AND 200', 'HTTP AND 404', 'HTTP AND 302', 'HTTP AND 50*'];
 </pre>
 
 ### Running
